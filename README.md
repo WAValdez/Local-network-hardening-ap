@@ -27,8 +27,7 @@ Posteriormente, bajo el menú `LAN > LAN Host Configuration`, se aplicaron los s
 * **Primary IP Address:** `192.168.1.254` (extremo superior seguro de la subred principal).
 * **DHCP Server:** **Deshabilitado**. La ONT pasa a trabajar estrictamente como un Bridge de Capa 2, delegando la asignación de direccionamiento IP de forma centralizada al Gateway Principal (`192.168.1.1`).
 
-> [!NOTE]
-> Coloca aquí la captura de tu panel LAN:
+
 > ![Configuración de Interfaz LAN y DHCP](./assets/lan_dhcp_config.png)]
 > ![Configuración de Interfaz DHCP](./assets/lan_dhcp_config.png)]
 
@@ -39,8 +38,7 @@ Se accedió a `WLAN > WLAN Basic Configuration` y se aplicó el endurecimiento p
 * **Authentication Mode:** Fijado estrictamente en `WPA2 Pre-Shared Key`.
 * **Encryption Mode:** Configurado exclusivamente en `AES` (deshabilitando por completo TKIP).
 
-> [!NOTE]
-> Coloca aquí la captura de tu panel WLAN:
+
 > ![Hardening Criptográfico WPA2-AES](./assets/wlan_hardening.png)
 
 ---
@@ -49,7 +47,5 @@ Se accedió a `WLAN > WLAN Basic Configuration` y se aplicó el endurecimiento p
 * **Latencia y Rendimiento:** Al utilizar un enlace troncal físico Ethernet se evitó la degradación del 50% del ancho de banda clásico de los repetidores inalámbricos comerciales (WISP).
 * **Mitigación de Riesgos:** El perímetro inalámbrico quedó alineado con los estándares modernos de confidencialidad, desapareciendo las alertas de seguridad en los hosts.
 
-> [!NOTE]
-> Coloca aquí la foto de tu hardware físico y la verificación de seguridad en tu móvil:
 > ![Evidencia Física de Conectividad](./assets/hw_backplate.png)
 > ![Verificación de Seguridad en Host Cliente](./assets/client_verification.png)
