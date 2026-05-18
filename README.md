@@ -47,5 +47,5 @@ Se accedió a `WLAN > WLAN Basic Configuration` y se aplicó el endurecimiento p
 * **Latencia y Rendimiento:** Al utilizar un enlace troncal físico Ethernet se evitó la degradación del 50% del ancho de banda clásico de los repetidores inalámbricos comerciales (WISP).
 * **Mitigación de Riesgos:** El perímetro inalámbrico quedó alineado con los estándares modernos de confidencialidad, desapareciendo las alertas de seguridad en los hosts.
 
-> ![Evidencia Física de Conectividad](./assets/hw_backplate.png)
 > ![Verificación de Seguridad en Host Cliente](./assets/client_verification.png)
+> ![Evidencia Física de Conectividad](./assets/hw_backplate.png)
